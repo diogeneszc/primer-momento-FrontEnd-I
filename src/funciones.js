@@ -3,11 +3,11 @@
         const CONTRASENA = "12345";
         const MAX_INTENTOS = 3;
         for (let i = 1; i <= MAX_INTENTOS; i++) {
-            let usuarioIngresado = prompt("Ingrese su usuario:");
-            let contrasenaIngresada = prompt("Ingrese su contraseña:");
+            let usuarioIngresado = prompt("Ingrese su usuario:🦁");
+            let contrasenaIngresada = prompt("Ingrese su contraseña:🤫🤐");
             
             if (usuarioIngresado === USUARIO && contrasenaIngresada === CONTRASENA) {
-                alert (`¡Bienvenido!`);
+                alert (`¡Bienvenido!😁`);
                 i=MAX_INTENTOS;
             } else {
                 alert(`Usuario o Cantraseña Incorreta ❌ Intento ${i} de ${MAX_INTENTOS}`);
